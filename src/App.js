@@ -5,7 +5,6 @@ import { addToDo } from './store/actions/toDo';
 
 import List from './components/List';
 import Input from './components/Input';
-import Button from './components/Button';
 
 function App({addToDo, toDoList}) {
   const [inputValue, setInputValue] = useState('')
