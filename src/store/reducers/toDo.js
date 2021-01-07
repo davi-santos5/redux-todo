@@ -2,7 +2,11 @@ const initialState = {
     list: [
         {
             id: 1,
-            name: 'first'
+            name: 'Example Item'
+        },
+        {
+            id: 2,
+            name: 'Second Item'
         }
     ],
 }
