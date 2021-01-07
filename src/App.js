@@ -24,7 +24,7 @@ function App({addToDo, toDoList}) {
       <h1>To Do List</h1>
       <List list={toDoList.list}/>
       <Input value={inputValue} onChange={handleInputChange}/>
-      <Button action={addItem}>Add Task</Button>
+      <button onClick={addItem}>Add Task</button>
     </>
   );
 }
