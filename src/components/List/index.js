@@ -4,9 +4,9 @@ const List = ({list}) => {
     
     return (
         <ul>
-            {list.map((item, index) => (
-                <li key={index}>
-                    {item}
+            {list.map(({id, name}) => (
+                <li key={id}>
+                    {name}
                 </li>
             ))}
         </ul>
